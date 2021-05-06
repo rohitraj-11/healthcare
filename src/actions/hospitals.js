@@ -1,5 +1,5 @@
-const rgeocode = require('../utils/rgeocode.js')
-const nearbyHospitals = require('../utils/nearbyHospitals.js')
+import rgeocode from '../utils/rgeocode.js';
+import nearbyHospitals from '../utils/nearbyHospitals.js';
 
 var lattitude = 28.644800;
 var longitude = 77.216721;

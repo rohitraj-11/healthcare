@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { startSetHospitals} from '../actions/hospitals';
-const geocode = require('../utils/geocode.js')
+import geocode from '../utils/geocode.js';
 
 export class SearchForm extends React.Component {
   constructor(props) {
